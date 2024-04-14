@@ -3,10 +3,17 @@ title: GitHub
 ---
 
 {% for repo in site.github.public_repositories %}
-  <p>
-  [{{ repo.name }}]({{ repo.html_url }})  
-  {{ repo.description }}  
-  {%- for topic in repo.topics %}
-  <div class="topic-style">{{ topic }}</div>{% endfor %}
-  </p>
+<p>
+[{{ repo.name }}]({{ repo.html_url }})  
+{{ repo.description }}  
+{%- for topic in repo.topics %}
+<div class="topic-style">{{ topic }}</div>{% endfor %}
+</p>
+{% endfor %}
+
+{% for repo in site.github.public_repositories %}
+[{{ repo.name }}]({{ repo.html_url }})  
+<div class="description-style">{{ repo.description }}</div>
+{%- for topic in repo.topics -%}
+<div class="topic-style">{{ topic }}</div>{% endfor %}
 {% endfor %}

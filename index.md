@@ -1,5 +1,5 @@
 ---
-title: Test
+title: GitHub
 ---
 
 ## Test page

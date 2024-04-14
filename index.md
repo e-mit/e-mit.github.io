@@ -6,8 +6,6 @@ title: GitHub
   [{{ repo.name }}]({{ repo.html_url }})  
   {{ repo.description }}  
   {%- for topic in repo.topics -%}
-  <div class="topic-style">
-  {{ topic }}
-  </div>
+  <div class="topic-style">{{ topic }}</div>
   {%- endfor -%}
 {% endfor %}

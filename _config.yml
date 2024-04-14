@@ -3,6 +3,4 @@ plugins:
 - jekyll-remote-theme
 
 title: e-mit
-description: |
-  [grafana.e-mit.dev](https://grafana.e-mit.dev)
-  Public repositories
+description: Public repositories

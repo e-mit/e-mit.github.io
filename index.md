@@ -3,9 +3,11 @@ title: GitHub
 ---
 
 {% for repo in site.github.public_repositories %}
-  [{{ repo.name }}]({{ repo.html_url }}) \ 
-  {{ repo.description }} \ 
+  [{{ repo.name }}]({{ repo.html_url }})  
+  {{ repo.description }}  
   {% for topic in repo.topics %}
-  {{ topic }} 
+  <div class="topic-style">
+  {{ topic }}
+  </div>
   {% endfor %}
 {% endfor %}

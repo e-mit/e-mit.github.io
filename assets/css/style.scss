@@ -3,3 +3,6 @@
 
 @import "{{ site.theme }}";
 /* custom CSS goes here */
+p {
+  margin: 20px 0 5px 0;
+}

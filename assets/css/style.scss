@@ -26,3 +26,7 @@ p {
   vertical-align: baseline;
   border-radius: .25rem;
 }
+
+span + span {
+  margin-left: 5px;
+}

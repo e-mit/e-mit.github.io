@@ -2,7 +2,27 @@
 ---
 
 @import "{{ site.theme }}";
+
 /* custom CSS goes here */
+
 p {
   margin: 20px 0 5px 0;
+}
+
+.link {
+  font-size: 125%;
+}
+
+.topic {
+  color: #fff;
+  background-color: #007bff;
+  display: inline-block;
+  padding: .25em .4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
 }

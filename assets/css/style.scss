@@ -32,7 +32,11 @@ span + span {
 }
 
 .header-link {
-  font-size: 125%;
+  font-size: 90%;
   text-decoration: underline;
   color:white;
+}
+
+a + a {
+  margin-left: 1em;
 }

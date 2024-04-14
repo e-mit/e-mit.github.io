@@ -3,6 +3,7 @@ title: GitHub
 ---
 
 {% for repo in site.github.public_repositories %}
-  [{{ repo.full_name }}]({{ repo.html_url }})
+  {% assign repo_name = repo.full_name | split: "/" | last %}
+  [{{ repo_name }}]({{ repo.html_url }})
   {{ repo.description }}
 {% endfor %}

@@ -7,7 +7,7 @@ title: GitHub
 <a class="link" href="{{ repo.html_url }}">{{ repo.name }}</a>
 <div class="description">{{ repo.description }}</div>
 {%- for topic in repo.topics -%}
-<div class="topic">{{ topic }}</div>
+<span class="topic">{{ topic }}</span>
 {%- endfor -%}
 </p>
 {%- endfor -%}

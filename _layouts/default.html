@@ -20,15 +20,19 @@
             <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
           {% endif %}
 
-          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
+          <h1 id="project_title">Edward Mitchell</h1>
+          <h2 id="project_tagline">GitHub repository list</h2>
+          <h2 id="project_tagline">
+            <a class="header-link" href="https://mtest.dev">LLM RAG demo</a>
+          </h2>
           <h2 id="project_tagline">
             <a class="header-link" href="https://grafana.e-mit.dev">grafana.e-mit.dev</a>
             <a class="header-link" href="https://vat.e-mit.dev">vat.e-mit.dev</a>
           </h2>
           <h2 id="project_tagline">
             <a class="header-link" href="https://peil328b55.execute-api.eu-west-2.amazonaws.com">FastAPI demo</a>
+            <a class="header-link" href="https://django-app-service-43e3cwelsq-ew.a.run.app">Django demo</a>
           </h2>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
             <section id="downloads">
@@ -41,7 +45,7 @@
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+      <section id="main_content" class="inner" style="padding-top: 20px;">
         {{ content }}
       </section>
     </div>
